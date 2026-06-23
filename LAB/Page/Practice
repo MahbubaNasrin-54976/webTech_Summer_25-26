@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+    <head>
+    <meta http-equiv="content" content="text/html ; charset=UTF-8">
+    <title> School Admission Form</title></head>
+    <link rel="stylesheet" href="../Design/style.css">
+    <body>
+    <form>
+         <h1>School Admission Form</h1>
+        <fieldset>
+           <legend>Information</legend>
+           <Table>
+            <tbody>
+           
+              <tr>
+                    <td><label for="name">Name :</lable></td>
+                    <td><input type="text" name="fname" id="name" placeholder="First name"></td>
+                     <td><input type="text" name="lname" id="name" placeholder="Last name"></td>
+               
+                </tr>
+                <tr>
+                    <td> <label for="DOB">Date Of Birth :</label></td>
+                    <td><input type="date" name="DOB" id="DOB">
+                </tr>
+                <tr>
+                    <td><label for="HSC">HSC Year :</label></td>
+                     <td><input type="number" name="HSC" id="HSC"></input></td>
+                </tr>
+                <tr>
+                    <td><label for="address">Student's Address :</label></td>
+                    <td><textarea type="text" name="address" id="address" rows="10" cols="25" style="resize:none" ></textarea></td>
+                </tr>
+                <tr><td><label for="citiezen">Country :</label></td>
+                    <td><select id="citiezen">
+                        <option id="Defaul" selected="selected">---Select Country---</option>
+                        <option id="argentina"> Argentina</option>
+                        <option id="brazil">Brazil</option>
+                        <option id="portugal ">Portugal</option>
+                        <option id="UK"> UK</option>
+                        <option id="Bangladesh">Bangladesh</option>
+                        <option id="India">India</option>
+                </tr>
+
+
+                    
+        
+           </tbody>
+        </Table>
+        </fieldset>
+        <br>
+
+        <tr><td><input type="submit" id="submit"name="submit" value="SignUp"></input></td></tr>
+    </form>
+    </div>
+</body>
+</html>
+
+

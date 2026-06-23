@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-color:darkgrey;
+    padding:20px;
+    line-height:1.5px;
+
+}
+
+.container{
+max-width: 600px;
+margin-bottom: 0auto;
+background-color: aliceblue;
+padding:30px;
+box-shadow: 0 20px 20px;
+align-items: baseline;
+
+
+}
+
+h1{
+    color:navy;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+label{
+    font-weight:normal;
+    font-size: 15px;
+}
