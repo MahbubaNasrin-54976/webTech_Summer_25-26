@@ -42,7 +42,7 @@
                    
                     <td><label for="phoneno"> Phone Number(Tel)</label></lable></td></tr>
                     <tr></tr><td><input type="Date" name="experimentdate" id="experimentdate" ></td>
-                    <td><input type="number" name="phoneno" id="phoneno" placeholder="+088 XXXX XXXXXX"></td>
+                    <td><input type="text" name="phoneno" id="phoneno" placeholder="+088 XXXX XXXXXX"></td>
                      
                 </tr>
                  </tbody>
