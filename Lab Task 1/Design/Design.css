@@ -13,10 +13,11 @@ body{
 }
 .container{
 max-width: 900px;
-margin-bottom: 0auto;
+margin: 0auto;
 background-color: aliceblue;
 padding:30px;
 align-items: baseline;
+
 
 
 }
@@ -25,7 +26,9 @@ legend{
     color:rgb(169, 103, 235);
     font-weight:normal;
     font-size: 20px;
+    text-align:center;
     border-color: rgb(71, 8, 129);
+ 
 }
 
 tr{
@@ -49,5 +52,18 @@ fieldset{
 label{
     font-weight:normal;
     font-size: 15px;
+   
 }
+input[type="submit"]{
+    background-color:blueviolet;
+    color: aliceblue;
+    padding:0auto 40px;
+    width: 20%;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin: auto;
+  
 
+}
