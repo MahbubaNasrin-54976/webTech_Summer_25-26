@@ -2,49 +2,49 @@
  <html lang="en-US">
     <head>
     <meta http-equiv="content" content="text/html ; charset=UTF-8">
-    <title> School Admission Form</title></head>
+    <title> School Admission Form</title>
     <link rel="stylesheet" href="../Design/Design.css">
+   </head>
+   
     <body>
     <form>
-         
-        <fieldset>
+         <fieldset>
            <legend>Student Information</legend>
            <Table>
-            <tbody>
-           
               <tr>
-                    <td><label for="name">Full Name(Text)</lable></td><br>
-                   
-                    <td><label for="email">Email Address </lable></td></tr>
-                    <tr></tr><td><input type="text" name="name" id="name" placeholder="Enter your full name"></td>
+                    <td><label for="name">Full Name(Text)</label></td><br>
+                    <td><label for="email">Email Address </label></td>
+              </tr>
+               <tr>
+                   <td><input type="text" name="name" id="name" placeholder="Enter your full name"></td>
                     <td><input type="text" name="email" id="email" placeholder="your.email@example.com"></td>
                      
                 </tr>
 
                 <tr>
-                    <td><label for="password">Password</lable></td><br>
+                    <td><label for="password">Password</label></td><br>
                    
-                    <td><label for="age">Age(Number)</lable></td></tr>
+                    <td><label for="age">Age(Number)</label></td></tr>
                     <tr></tr><td><input type="text" name="password" id="password" placeholder="Enter secure password"></td>
                     <td><input type="number" name="age" id="age" placeholder="Enter your age"></td>
                      
                 </tr>
 
                  <tr>
-                    <td><label for="experimentdate">Experiment Date</lable></td><br>
+                    <td><label for="experimentdate">Experiment Date</label></td><br>
                    
-                    <td><label for="phoneno"> Phone Number(Tel)</label></lable></td></tr>
-                    <tr></tr><td><input type="Date" name="experimentdate" id="experimentdate" ></td>
+                    <td><label for="phoneno"> Phone Number(Tel)</label></td></tr>
+                    <tr><td><input type="Date" name="experimentdate" id="experimentdate" ></td>
                     <td><input type="text" name="phoneno" id="phoneno" placeholder="+088 XXXX XXXXXX"></td>
                      
                 </tr>
-                 </tbody>
-        </Table>
+         </Table>
         </fieldset>
         <br>
 
-        <tr><td><input type="submit" id="submit"name="submit" value="SUBMIT"></input></td>
-        <td><input type="submit" id="clear"name="clear" value="CLEAR"></input></td>
+        <tr>
+        <td><input type="submit" id="submit"name="submit" value="SUBMIT"></input></td>
+        <td><input type="reset" id="clear"name="clear" value="CLEAR"></input></td>
         </tr>
 
     </form>
