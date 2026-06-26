@@ -13,7 +13,7 @@ body{
 }
 .container{
 max-width: 900px;
-margin: 0auto;
+margin: 0 auto;
 background-color: aliceblue;
 padding:30px;
 align-items: baseline;
@@ -54,10 +54,25 @@ label{
     font-size: 15px;
    
 }
+input[type="reset"]{
+    background-color:blueviolet;
+    color: aliceblue;
+    padding:10auto 40px;
+    width: 20%;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin: auto;
+  
+
+}
+
+
 input[type="submit"]{
     background-color:blueviolet;
     color: aliceblue;
-    padding:0auto 40px;
+    padding:10px 40px;
     width: 20%;
     border-radius: 4px;
     font-weight: bold;
